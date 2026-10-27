@@ -1,0 +1,4 @@
+-r requirements-ml-extras.txt
+pytest>=8
+pytest-cov>=5
+pip-audit>=2.7

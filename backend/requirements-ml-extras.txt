@@ -1,0 +1,5 @@
+# Optional gradient-boosting libraries. AutoML uses them when importable and
+# skips them (with a note in the experiment) when they are not installed.
+-r requirements.txt
+xgboost>=2.0
+lightgbm>=4.3

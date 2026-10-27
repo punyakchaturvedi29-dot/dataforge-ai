@@ -1,0 +1,26 @@
+# secrets
+.env
+backend/.env
+*.secret_key
+# runtime data
+backend/data/
+backend/data-*/
+data/
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+# node
+node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+# os/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
